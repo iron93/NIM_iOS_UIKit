@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
     os.dependency 'FLAnimatedImage', '~> 1.0.12'
     os.dependency 'Toast', '~> 3.0'         
     os.dependency 'M80AttributedLabel', '~> 1.6.3'       
-    os.dependency 'TZImagePickerController', '~> 3.0.7'  
+    os.dependency 'TZImagePickerController', :git => 'https://github.com/iron93/TZImagePickerController' 
   end
 
 
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
     os.dependency 'FLAnimatedImage'
     os.dependency 'Toast'
     os.dependency 'M80AttributedLabel'
-    os.dependency 'TZImagePickerController'
+    os.dependency 'TZImagePickerController':git => 'https://github.com/iron93/TZImagePickerController'
   end
 
   
